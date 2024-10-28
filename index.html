@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-selector">
+        <button class="button person-selector-button active-chat" id="prezidenta-selector">Prezidenta</button>
+        <button class="button person-selector-button person-2" id="dakata-selector">Dakata</button>
+    </div>
+
+    <div class="chat">
+        <h3 class="header">Prezidenta</h3>
+
+        <div class="chat-suobshteniq">
+            <div class="polucheni suobshtenie">
+                <div class="sender">Prezidenta</div>
+                <div class="text">trqbvash mi speshno!!!</div>
+                <div class="timestamp">6:32 AM</div>
+            </div>
+
+            <div class="izprateni suobshtenie">
+                <div class="sender">Dakata</div>
+                <div class="text">dobre</div>
+                <div class="timestamp">6:34 AM</div>
+            </div>
+        </div>
+
+        <form class="chat-input-button">
+            <div class="chat-input">
+                <input type="text" class="input" required placeholder="Pishi tuk, Prezidenta...">
+                <span class="focus-border"></span>
+            </div>
+
+            <button type="submit" class="btn">Send</button>
+        </form>
+        
+        <button class="button-clear button">Clear Chat</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
